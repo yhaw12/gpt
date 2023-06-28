@@ -1,0 +1,144 @@
+.main_card{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 2rem 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.left_card{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-evenly;
+}
+
+.left_card img{
+    width: 5rem; 
+    margin-right: 3rem; 
+}
+
+.left_card .list{
+    display: inline-flex;
+    align-items: center;
+}
+
+.left_card .list p{
+    margin: 0 1.4rem;
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+.right_card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    flex-basis: 30%;
+}
+.right_card p{
+    color: var(--color-text);
+    font-size: 18px; 
+    font-family: var(--font-family);
+    margin-right: 2rem;
+
+    line-height: 25px;
+    font-weight: 600;
+
+    color: #fff;
+
+}
+
+.right_card .btn{
+    padding: 1rem 2rem;
+    border-radius: .2rem;
+
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+    background-color: #ff4820;
+}
+
+.mobile_screen_icons{
+    position: relative;
+    display: none;
+}
+
+
+
+@media  screen and (max-width: 1250px) {
+    .main_card{
+        padding: 2rem 1rem;
+    }
+     .main_card.left_card{
+        flex-basis: 50%;
+    }
+
+    .main_card .right_card{
+        flex-basis: 50%;
+    }
+    
+    .left_card .list{
+        display: none;
+    }   
+    
+    .right_card p, .right_card .btn{
+        display: none;
+    }
+
+    .mobile_screen_icons{
+        display: block;
+    }
+
+    .mobile_screen_icons .mobile_menu_links_card{
+        position: absolute;
+        width: 200px;
+        height: 280px;
+
+        top: 20%;
+        margin-top: 3rem;
+        right: 0;
+        padding: 2rem 0;
+
+        border-radius: 10px;
+        background-color: var(--color-footer);
+        transition: all 300ms ease;
+    }
+
+    .mobile_menu_links_card p{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-between;
+
+
+        font-size: 15px;
+        font-weight: 500;
+        margin: 1rem ;
+        color: #fff;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

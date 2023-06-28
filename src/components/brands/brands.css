@@ -1,0 +1,39 @@
+.brand_card{
+    width: 100%;
+    height: auto;
+    padding: 2rem 6rem;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand_card .img_card{
+    width: 800px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);    
+}
+
+.brand_card .img_card img{
+    width: 8rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:950px){
+    .brand_card .img_card img{
+        width: 6rem;
+    }
+
+    .brand_card .img_card{
+        width: 400px;
+        margin-top: 2rem;
+        display: grid;
+        gap: .5rem;
+        grid-template-columns: repeat(3, 1fr);    
+    }
+    
+}

@@ -1,0 +1,154 @@
+.header_main_card{
+    width: 100%;
+    height: auto;
+
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_main_card .left_card{
+
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+
+.header_main_card .left_card h1{
+    font-size: 3rem;
+    line-height: 60px;
+
+    width: 550px;
+    margin-top: 1.5rem;
+    font-family: var(--font-family);
+    
+}
+
+.header_main_card .left_card p{
+    width: 450px;
+
+    color: var(--color-text);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27.32px;
+    font-family: var(--font-family);
+    margin-bottom: 1rem;
+}
+
+.header_main_card .left_card form{
+    width: 100%;
+    max-width: 450px;
+    padding-left: .3rem;
+
+    display: flex;
+    align-items: center;
+    background: #052D56; 
+
+    transition: all 300ms ease;
+    border-radius: .2px 0px 0px .2px;
+}
+
+.header_main_card .left_card form input{
+    width: 100%;
+    height: auto;
+    flex: 3;
+    outline: none;
+    border: none;
+    caret-color: var(--color-text);
+    background: transparent;
+    transition: all 300ms ease;
+}
+
+.header_main_card .left_card .btn{
+    padding: 1rem 1.5rem;
+    border-radius: 0px .2rem .2rem 0px;
+
+    flex: 1;
+    outline: none;
+    border: none;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff4820;
+    transition: all 300ms ease;
+}
+
+.header_main_card .left_card .bt_imgs{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.header_main_card .left_card .bt_imgs img{
+    width: 10rem;
+}
+
+.header_main_card .left_card .bt_imgs h5{
+    font-size: 10px;
+    color: #fff;
+    margin-left: -30px;
+    font-weight: 300;
+    font-family: var(--font-family);
+}
+
+/* right section */
+.header_main_card .right_card{
+    width: 600px;
+    height: 500px;
+    flex-basis: 40%;
+}
+
+.header_main_card .right_card img{
+   max-width: 600px;
+   min-width: 300px;
+}
+
+
+@media (max-width:950px){
+    .header_main_card{
+        padding: 0 3rem;
+        flex-direction: column;
+    } 
+    .header_main_card .left_card{
+        width: 96%;
+        margin-bottom: 2rem;
+    }
+    .header_main_card .left_card h1{
+        font-size: 2rem;
+        line-height: 40px;
+        width: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .header_main_card .left_card p{
+        width: auto;  
+        margin-bottom: 3.5rem;
+        font-weight: 400;     
+    }
+
+    .header_main_card .right_card{
+        width: 96%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_main_card .right_card img{
+        max-width: 500px;
+    }
+
+    .header_main_card .left_card .btn{
+        padding: .7rem 1rem;
+        flex: .8;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

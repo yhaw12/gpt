@@ -1,0 +1,173 @@
+.main_footer{
+    width: 100%;
+    height: auto;
+    padding: 2rem 6rem; 
+    background-color: var(--color-footer);
+
+    display: grid;
+    place-items: center;
+}
+.footer_box{
+    width: 1170px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_box .top_text{
+    width: 821px;
+    height: 150px;
+
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_box .top_text h1{
+    font-family: var(--font-family);
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+    margin-bottom: 1rem;
+}
+
+.footer_box .top_text h5{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    color: #fff;
+
+    padding: 1rem;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.bt_section .bt_section_card{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+
+    margin-top: 6rem;
+} 
+
+.bt_section_card .left_card{
+    flex-direction: column;
+    flex: 0.75px;
+}
+
+.bt_section_card .left_card img{
+    width: 118px;
+    height: 30px;
+}
+
+.bt_section_card .left_card h5{
+    width: 168px;
+    height: 30px;
+
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    color: #fff;
+}
+
+
+.bt_section_card .right_card{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+.bt_section_card .right_card .card_boxes h3{
+    font-family: Gilroy-Bold;
+    font-size: 17px;
+    line-height: 16px;
+    text-align: left;
+
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.bt_section_card .right_card .card_boxes p{
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 1rem;
+}
+
+.bt_section .copyright{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.bt_section .copyright p{
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 1050px){
+    .main_footer{
+        padding: 2rem 3rem;
+    }    
+    .footer_box{
+        width: 100%;
+    }
+    .footer_box .top_text{
+        width: 70%;
+        margin: 3rem 0;
+    }
+    
+    .footer_box .top_text h1{
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 65px;
+    }
+    
+    .footer_box .top_text h5{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .bt_section .bt_section_card{
+        flex-direction: column;    
+        margin-top: 4rem;
+    } 
+    .bt_section_card .right_card{
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .bt_section_card .right_card .card_boxes h3{
+        font-family: Gilroy-Bold;
+        font-size: 17px;
+        line-height: 16px;
+        text-align: left;
+    
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+    .bt_section_card .right_card .card_boxes p{
+        font-family: Gilroy-Medium;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+        margin-bottom: 1rem;
+    }
+    
+}

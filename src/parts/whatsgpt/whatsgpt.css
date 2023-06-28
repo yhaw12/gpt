@@ -1,0 +1,214 @@
+.gpt_main_card{
+    width: 100%;
+    height: auto;
+    padding:  3rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease;
+}
+
+.gpt_main_card .gpt_card{
+    width: 1170px;
+    height: 695px;
+
+    padding: 3rem;
+    background: var(--color-footer);    
+}
+
+/* .gpt_main_card .gpt_card{position: relative;}
+.gpt_main_card .gpt_card>h2::before{
+    position: absolute;
+
+    content: '';
+    width: 30px;
+    height: 2rem;
+    bottom: 4px;
+    left: 0;
+
+    background-color: red;
+} */
+.gpt_card .first_card{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.gpt_card .first_card h2{
+    flex: 1;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    /* identical to box height, or 312% */
+
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+/* .gpt_card .first_card h2::before{
+    position: absolute;
+    width: 30%;
+    height: 1rem;
+    bottom: 0;
+    left: 0;
+} */
+.gpt_card .first_card p{
+    flex: 3;
+    color: var(--color-text);
+
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+}
+
+/* middle section */
+.gpt_card .middle_card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 3rem;
+}
+
+
+.gpt_card .middle_card h1{
+    flex: 2;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background-color: var(--gradient-text);
+}
+
+.gpt_card .middle_card div{
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* last card */
+.gpt_card .last_card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gpt_card .last_card .last_card_box{
+    width: 31%;
+    height: 200px;
+    margin-top: 3rem;    
+}
+
+.gpt_card .last_card .last_card_box h2{
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.gpt_card .last_card .last_card_box p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--color-text);
+}
+
+
+/* MEDIA QUERY */
+@media  (max-width: 1050px) {
+    .gpt_main_card{
+        padding: 0 2rem;
+    }
+    .gpt_main_card .gpt_card{
+        padding: 2rem;
+        height: auto;    
+    }
+    .gpt_card .first_card{
+        margin-bottom: 3rem;
+    }
+    .gpt_card .first_card h2{
+        font-weight: 500;
+        font-size: 14px;   
+    }
+    .gpt_card .first_card p{    
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .gpt_card .middle_card{
+        margin-bottom: 1rem;
+    }
+
+    .gpt_card .middle_card h1{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .gpt_card .middle_card div{
+        flex: 2.5;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .gpt_card .middle_card div h4{
+        font-size: 12px;
+    }
+    .gpt_card .last_card{
+        margin-top: -2rem;
+        padding-bottom: 2rem;
+    }
+
+    .gpt_card .last_card .last_card_box h2{
+        font-weight: 500;
+        font-size: 14px;   
+    }
+
+    .gpt_card .last_card .last_card_box p{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+}
+
+@media  (max-width: 750px){
+    .gpt_card .first_card h2{
+        font-weight: 500;
+        font-size: 12px;   
+    }
+    .gpt_card .first_card p{    
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .gpt_card .middle_card h1{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .gpt_card .middle_card div h4{
+        font-size: 10px;
+    }
+
+    .gpt_card .last_card .last_card_box p{
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+}
