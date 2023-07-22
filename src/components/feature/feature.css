@@ -1,0 +1,10 @@
+.feature_main_card{
+    width: auto;
+    height: auto;
+}
+
+.feature_main_card .bar{
+    width: 3rem;
+    height: 2px;
+    background-color: var(--gradient-bar);
+}

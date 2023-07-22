@@ -1,11 +1,12 @@
 import React from 'react'
 import './whatsgpt.css'
 import { whatsgptdata } from './import'
+import Feature from '../../components/feature/Feature'
 
 
 function Whatsgpt() {
   return (
-    <div className='gpt_main_card'>
+    <div className='gpt_main_card section__padding'>
 
         <div className='gpt_card'>
             <div className='first_card'>

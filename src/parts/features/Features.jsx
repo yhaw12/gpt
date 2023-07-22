@@ -6,7 +6,7 @@ function Features() {
   return (
     <div className='features_main_card'>
 
-        <div className='features_content_card'>
+        <div className='features_content_card section__padding'>
             <div className='left_side'>
                 <h2 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h2>
 

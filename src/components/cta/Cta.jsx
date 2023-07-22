@@ -3,7 +3,7 @@ import './cta.css'
 
 function Cta() {
   return (
-    <div className='cta_main_card'>
+    <div className='cta_main_card section__padding'>
         <div className='cta_box'>
             <div className='left'>
                 <h5>Request Early Access to Get Started</h5>

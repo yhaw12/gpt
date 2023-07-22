@@ -211,48 +211,16 @@
         font-size: 10px;
     }
     .gpt_card .last_card{
+        outline: 2px solid orange;
         margin: 0 auto;
     }
     .gpt_card .last_card .last_card_box{
-        padding-left: 1rem;
+    
+        outline: 2px solid red;
     }
     .gpt_card .last_card .last_card_box p{
         font-size: 11px;
         font-weight: 700;
         line-height: 28px;
-    }
-}
-
-@media  (max-width: 550px){
-
-    .gpt_card .first_card{
-        gap: 1rem;
-    }
-
-    .gpt_card .first_card h2{
-        font-size: 10px; 
-    }
-    
-    .gpt_card .middle_card{
-        margin-bottom: 3rem;
-    }
-    .gpt_card .middle_card h1{
-        font-size: 15px;
-        line-height: 20px;
-    }
-    
-    .gpt_card .last_card{
-        flex-direction: column;
-        gap: 3rem;
-        outline: .1px solid  rgba(245, 102, 250, 0.315);
-    }
-    .gpt_card .last_card .last_card_box h2{
-        font-size: 20px;
-        font-weight: 750;
-        line-height: 40px;
-    }
-    .gpt_card .last_card .last_card_box p{
-        font-weight: 700;
-        line-height: 22px;
     }
 }

@@ -4,7 +4,7 @@ import possibility from '../../assests/possibility.png'
 
 function Possibilities() {
   return (
-    <div className='poss_main_card'>
+    <div className='poss_main_card section__padding'>
         <div className='poss_card_box'>
             <div className='image'>
                 <img src={possibility} alt='poss'/>

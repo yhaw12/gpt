@@ -5,7 +5,7 @@ import Article from '../../components/article/Article'
 
 function Blog() {
   return (
-    <div className='blog_main_card'>
+    <div className='blog_main_card section__padding'>
       <div className="blog_main_box">
         <div className='main_card_text'>
           <h1 className='gradient__text'>A lot is happening, <br />

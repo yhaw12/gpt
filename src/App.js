@@ -23,9 +23,9 @@ function App() {
       <Whatsgpt/>
       <Features/>
       <Possibilities/>
-      <Cta/>
+      {/* <Cta/>
       <Blog />
-      <Footer/>
+      <Footer/> */}
     </div>
   );
 }

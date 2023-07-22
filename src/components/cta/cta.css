@@ -60,18 +60,23 @@
     font-family: var(--font-family);
 }
 
+
+
 /* MEDIA QUERIEA */
-@media (max-width:1050px){
+@media (max-width:1250px){
     .cta_main_card{
         height: 400px;
-        padding: 2rem 3rem;
-
+        /* padding: 2rem 3rem; */
     }
     
     .cta_box{
-        width: 600px;
+        width: 95%;
         height: 150px;
         padding: 1.5rem;
+    }
+
+    .cta_box .left{
+        outline: 2px solid red;
     }
     
     .cta_box h5{

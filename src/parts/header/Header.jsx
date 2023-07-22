@@ -6,7 +6,7 @@ import people from '../../assests/people.png'
 
 function Header() {
   return (
-    <div className='header_main_card'>
+    <div className='header_main_card section__padding'>
         <div className=' left_card'>
             <h1 className='gradient__text'>Let's Build Something amazing with GPT-3 OpenAI</h1>
             <p>Yet bed for travelling assistance indulgence unpleasing.

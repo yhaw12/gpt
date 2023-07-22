@@ -10,10 +10,11 @@
 }
 
 
-.left_card{
+.main_card .left_card{
     display: flex;
     flex-basis: 60%;
-    justify-content: space-evenly;
+    flex: 1;
+    outline: 2px solid red;
 }
 
 .left_card img{
@@ -32,11 +33,13 @@
     color: #fff;
 }
 
-.right_card{
+.main_card .right_card{
     display: flex;
     align-items: center;
     justify-content: flex-end; 
     flex-basis: 30%;
+
+    outline: 2px solid yellow;
 }
 .right_card p{
     color: var(--color-text);
@@ -77,10 +80,8 @@
 
 
 @media  screen and (max-width: 1250px) {
-    .main_card{
-        padding: 2rem 1rem;
-    }
-     .main_card.left_card{
+    
+    .main_card .left_card{
         flex-basis: 50%;
     }
 
@@ -121,7 +122,6 @@
         align-items: end;
         justify-content: space-between;
 
-
         font-size: 15px;
         font-weight: 500;
         margin: 1rem ;
@@ -132,6 +132,12 @@
 
 }
 
+@media  screen and (max-width: 450px) {
+    /* .main_card{
+        gap: 4rem;
+        justify-content: flex-start;
+    } */
+}
 
 
 
