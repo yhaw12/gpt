@@ -27,7 +27,7 @@
 
 .poss_card_box .txt_side{
     width: 479px;
-    height: 334px;
+    height: auto;
 
     margin-top: 7rem;
 }
@@ -86,9 +86,10 @@
 
     
     .poss_card_box .txt_side{
-        height: 334px;
+        width: auto;
     
         margin-top: 1rem;
+        margin-left: 1rem;
     }
     .poss_card_box .txt_side h5{
         font-size: 14px;
@@ -123,7 +124,7 @@
     }
     
     .poss_card_box .txt_side h2{
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 800;
         line-height: 30px;
     }
