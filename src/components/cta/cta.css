@@ -61,11 +61,11 @@
 }
 
 
-
 /* MEDIA QUERIEA */
 @media (max-width:1250px){
     .cta_main_card{
-        height: 400px;
+        width: auto;
+        height: auto;
         /* padding: 2rem 3rem; */
     }
     
@@ -75,9 +75,9 @@
         padding: 1.5rem;
     }
 
-    .cta_box .left{
+    /* .cta_box .left{
         outline: 2px solid red;
-    }
+    } */
     
     .cta_box h5{
         width: 250px;
@@ -95,7 +95,6 @@
         line-height: 35px;
     }
     
-    
     .cta_box .right button{
         width: 150px;
         height: 40px;
@@ -105,29 +104,31 @@
 
 @media (max-width:750px){
     .cta_main_card{
-        height: 350px;
+        width: auto;
         padding: 2rem 3rem;
     }
     
     .cta_box{
-        width: 500px;
-        height: 120px;
+        width: auto;
+        height: auto;
         padding: 1rem;
     }
     
     .cta_box h5{
+        height: auto;
         width: 150px;
-        height: 25px;
 
         font-size: 8px;
         line-height: 15px;
+        font-weight: 700;
     }
 
     .cta_box p{
-        width: 250px;
-        height: 70px;
+        /* width: 250px; */
+        width: auto;
+        height: auto;
         
-        font-size: 18px;
+        font-size: 16px;
         line-height: 25px;
     }
         
@@ -135,5 +136,30 @@
         width: 100px;
         height: 35px;
         font-size: 12px;
+    }
+}
+
+@media (max-width:350px){
+    .cta_box h5{
+        height: auto;
+        width: 150px;
+    }
+
+    .cta_box p{
+        width: 170px;
+        
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .cta_box p{        
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .cta_box .right button{
+        width: auto;
+        height: 35px;
+
+        padding:  .5rem;
+        font-size: 10px;
     }
 }

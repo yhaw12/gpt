@@ -10,7 +10,7 @@ import Cta from './components/cta/Cta';
 import Blog from './parts/blog/Blog';
 import Footer from './parts/footer/Footer';
 
-
+import Signin from './components/signin/Signin';
 
 function App() {
   return (
@@ -23,9 +23,10 @@ function App() {
       <Whatsgpt/>
       <Features/>
       <Possibilities/>
-      {/* <Cta/>
-      <Blog />
-      <Footer/> */}
+      <Cta/>
+      {/* <Blog /> */}
+      <Signin/>
+      <Footer/>
     </div>
   );
 }

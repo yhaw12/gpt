@@ -1,0 +1,75 @@
+.singin_main_card{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    place-items: center;
+
+    background-color: var(--color-bg);
+}
+
+.signin_ac_card{
+    width: 400px;
+    height: auto;
+    padding: 2rem;
+
+    border-radius: 5px;
+    background-color: #fff;
+}
+/* .signin_ac_card .toptext{
+    margin: 0 auto;
+} */
+
+.signin_ac_card .toptext h2{
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    font-weight: 800;
+
+    text-align: center;
+}
+
+.signin_ac_card form{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.signin_ac_card form .login_card{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 5px;
+    padding: 1rem;
+
+
+    margin: 1rem 0 .5rem;
+    outline: 2px solid rgba(0, 0, 0, 0.11);
+}
+
+.signin_ac_card form .login_card input{
+    outline: none;
+    border: none;
+    caret-color: grey;
+}
+
+.signin_ac_card form h5{
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-family: var(--font-family);
+}
+
+.signin_ac_card form button{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: var(--font-family);
+
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(226, 83, 83);
+}
