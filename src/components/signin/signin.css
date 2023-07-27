@@ -124,4 +124,11 @@
         width: auto; 
         padding: 1rem;
     }    
+    .signin_ac_card .toptext h2{
+        font-size: 1.2rem;
+    }
+    .signin_ac_card form{
+        width: auto;
+        margin: 0 auto;
+    }
 }
