@@ -1,6 +1,7 @@
 import React from 'react'
 import './signin.css'
 
+
 import { useState } from 'react'
 import { FaEnvelope } from 'react-icons/fa'
 import { FaEye } from 'react-icons/fa'
@@ -8,8 +9,10 @@ import { FaLock } from 'react-icons/fa'
 import { FaGoogle } from 'react-icons/fa'
 
 import { signInWithEmailAndPassword } from "firebase/auth";
+import {auth} from "../../firebase"
 
-
+// Google Signin Button Option
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
 function Signin() {
     
@@ -28,7 +31,19 @@ function Signin() {
         .catch((error) => {
             console.log(error)
             // ..
-    });
+        });
+    }
+
+
+    const signInGoogle  = async ()=>{
+        const provider = new GoogleAuthProvider(); 
+
+        try{
+            await signInWithPopup(auth, provider);
+        }
+        catch{
+            (error) => console.error(error)
+        }
     }
 
       
@@ -59,7 +74,7 @@ function Signin() {
             </form>
             <div className='sp'><span>OR</span></div>
             
-            <div className="bt"><FaGoogle/><button type="submit" className='btn'>Continue with Google</button></div>
+            <div className="bt"><FaGoogle/><button type="submit" onClick={signInGoogle} className='btn'>Continue with Google</button></div>
         </div>
     </div>
   )

@@ -34,7 +34,7 @@
     margin: 0 auto;
 }
 
-.signup_ac_card form .login_card{
+.signup_ac_card form .signup_card{
     width: 100%;
     height: auto;
 
@@ -50,7 +50,7 @@
     outline: 2px solid rgba(0, 0, 0, 0.11);
 }
 
-.signup_ac_card form .login_card input{
+.signup_ac_card form .signup_card input{
     outline: none;
     border: none;
     caret-color: grey;
