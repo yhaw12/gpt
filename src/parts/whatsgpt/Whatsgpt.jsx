@@ -1,7 +1,7 @@
 import React from 'react'
 import './whatsgpt.css'
 import { whatsgptdata } from './import'
-import Feature from '../../components/feature/Feature'
+// import Feature from '../../components/feature/Feature'
 
 
 function Whatsgpt() {

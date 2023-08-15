@@ -24,24 +24,33 @@ function Footer() {
                     <div className="right_card">
                         <div className="card_boxes">
                             <h3>links</h3>
-                            <p><a href='#Overons'>Overons</a></p>
-                            <p><a href='#Social'>Social media</a></p>
-                            <p><a href='#Counters'>Counter</a></p>
-                            <p><a href='#Contact'>Contact</a></p>
+
+                            <ul> 
+                                <li><a href='#Overons'>Overons</a></li>
+                                <li><a href='#Social'>Social media</a></li>
+                                <li><a href='#Counters'>Counter</a></li>
+                               <li><a href='#Contact'>Contact</a></li>
+                            </ul>
+                           
                         </div>
                         <div className="card_boxes">
                             <h3>Company</h3>
-                            <p><a href='#'>Terms & Condition</a></p>
-                            <p><a href='#'>Privacy Policy</a></p>
-                            <p><a href='#'>Contact</a></p>
-                            <p></p>
+                            
+                            <ul>
+                                <li><a href='#'>Terms & Condition</a></li>
+                                <li><a href='#'>Privacy Policy</a></li>
+                                <li><a href='#'>Contact</a></li>
+                                <li></li>
+                            </ul>
                         </div>
                         <div className="card_boxes">
                             <h3>Get in touch</h3>
-                            <p><a href='#'>Blanskon Creative <br />
-                            Ghana</a></p>
-                            <p><a href='#'>549-23564</a></p>
-                            <p><a href='#'>info@payment.net</a></p>
+                            <ul>
+                                <li><a href='#'>Blanskon Creative <br />
+                                Ghana</a></li>
+                                <li><a href='#'>549-23564</a></li>
+                                <li><a href='#'>info@payment.net</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

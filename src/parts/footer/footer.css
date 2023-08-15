@@ -9,7 +9,7 @@
 }
 .footer_box{
     width: 1170px;
-    height: 100%;
+    height: auto;
 
     display: flex;
     flex-direction: column;
@@ -80,9 +80,16 @@
 
 
 .bt_section_card .right_card{
+    height: auto;
     flex: 1;
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+
+.bt_section .right_card .card_boxes{
+    width: 200px;
+    height: 180px;
 }
 
 .bt_section_card .right_card .card_boxes h3{
@@ -94,15 +101,20 @@
     margin-bottom: 1rem;
     color: #fff;
 }
-.bt_section_card .right_card .card_boxes p{
+
+.bt_section .right_card .card_boxes li{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: .5rem;
+}
+.bt_section_card .right_card .card_boxes li a{
     font-family: Gilroy-Medium;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
-
-    margin-bottom: 1rem;
-}
+    color: #fff;
+}  */
 
 .bt_section .copyright{
     text-align: center;
@@ -125,6 +137,7 @@
     }    
     .footer_box{
         width: 100%;
+        height: auto;
     }
     .footer_box .top_text{
         width: 70%;
@@ -142,27 +155,12 @@
         line-height: 18px;
     }
     .bt_section .bt_section_card{
-        flex-direction: column;    
-        margin-top: 4rem;
-    }  
+        gap: 10rem;
+    } 
     
     .bt_section_card .right_card .card_boxes h3{
-        font-family: Gilroy-Bold;
         font-size: 17px;
-        line-height: 16px;
-        text-align: left;
-    
-        margin-bottom: 1rem;
-        color: #fff;
-    }
-    .bt_section_card .right_card .card_boxes p{
-        font-family: Gilroy-Medium;
-        font-size: 12px;
         line-height: 14px;
-        letter-spacing: 0em;
-        text-align: left;
-    
-        margin-bottom: 1rem;
     }
     
 }
@@ -192,13 +190,40 @@
         font-size: 15px;
         line-height: 18px;
     }
+    
+    .bt_section .bt_section_card{
+
+        flex-direction: column;    
+        margin-top: 4rem;
+        gap: 5rem;
+    
+        margin-top: 4rem;
+    }
+    .bt_section_card .left_card{
+        text-align: center;
+    }
+    
+    .bt_section_card .left_card img{
+        width: 100px;
+        height: 30px;
+        margin-bottom: .3rem;
+    }
+    
+    .bt_section_card .left_card h5{
+        width: 168px;
+        height: 30px;    
+        margin: 0 auto;
+    }
+    
     .bt_section_card .right_card{
-         grid-template-columns: repeat(2, minmax(auto, auto));
+         grid-template-columns: repeat(2, minmax(180px, 1fr));
+         transition: all 300ms ease;
         
     }
     .bt_section_card .right_card .card_boxes{
         width: auto;
-        height: 100px;
+        height: 120px;
+        margin-bottom: .5rem;
     }
     .bt_section_card .right_card .card_boxes p{
         color: azure;
@@ -222,4 +247,12 @@
         font-size: 12px;
         line-height: 18px;
     }
+
+    
+    .bt_section_card .right_card{
+        grid-template-columns: repeat(1, minmax(180px, 1fr));
+        transition: all 300ms ease;
+       
+   }
 }
+   
